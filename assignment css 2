@@ -1,0 +1,11 @@
+.container7{
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+button{
+    background-color: rgb(78, 78, 223);
+    border-radius: 4px;
+    color: white;
+}

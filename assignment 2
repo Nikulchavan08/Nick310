@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+<h1>Problem Number : 1</h1>
+
+    <div class="container">
+<h2>Employee information </h2>
+<table border="2px">
+    <tr>
+        <th>Empoyee</th>
+        <th>Position</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Lakshmi Nayak</td>
+        <td>Developer</td>
+        <td>Mexico</td>
+    </tr>
+    <tr>
+        <td>Madhu Kumari</td>
+        <td>Bussiness</td>
+        <td>australia</td>
+    </tr>
+    <tr>
+        <td>Shreya Sharma</td>
+        <td>IT sector</td>
+        <td>italy</td>
+    </tr>
+    <tr>
+        <td>Nikitha</td>
+        <td>Bank sector</td>
+        <td>Roam</td>
+    </tr>
+</table>
+
+    </div>
+
+    <div class="container2">
+        <h1>Student scores</h1>
+        <table border="2px">
+            <tr>
+            <th>Student</th>
+            <th>Subject Scores</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Raj</td>
+            <td>Algebra</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            
+            <td>Algebra</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Algebra</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>
+            <td>50</td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="container3" >
+        <h1>Hobbies</h1>
+        <table border="2px" style="width: 50%;">
+            <tr style="height: 55px;" >
+                <td>Indoor</td>
+                <td>Chess</td>
+            </tr>
+            <tr style="height: 55px;">
+                <td>Outdoor</td>
+                <td>Chess</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+    <h1 style="font-weight: bolder; margin-top: 100px;">Problem number : 2</h1>
+    
+    <h3>AN ordered List</h3>
+    <div class="container4">
+    <table   border="2px">
+      <tr>
+          <th>orderlist1</th>
+          <th>orderlist2</th>
+          <th>orderlist3</th>
+          <th>orderlist4</th>
+      </tr>
+      
+     <tr>
+         <td>
+             <ul type="1">
+                 <li>type one</li>
+                 <li>type one</li>
+                 <li>type one</li>
+                 <li>type one</li>
+             </ol>
+             </td>
+         <td>
+             <ul type="A">
+                 <li>type two</li>
+                 <li>type two</li>
+                 <li>type two</li>
+                 <li>type two</li>
+             </ol>
+         </td>
+         <td>
+             <ul type="a">
+                 <li>type three</li>
+                 <li>type three</li>
+                 <li>type three</li>
+                 <li>type three</li>
+             </ol>
+         </td>
+         <td>
+             <ul type="i">
+                 <li>type four</li>
+                 <li>type four</li>
+                 <li>type four</li>
+                 <li>type four</li>
+             </ol>
+         </td>
+     </tr>
+    
+        
+   
+    </table>
+</div>
+
+
+<div class="container5">
+    <h3>
+        An Unordered List 
+    </h3>
+    <table border="2px">
+        <tr>
+
+            <th>Unordered list1</th>
+            <th>Unordered list2</th>
+            <th>Unordered list3</th>
+        </tr>
+        <tr>
+            <td>
+                <ul >
+                    <li>type one</li>
+                    <li>type one</li>
+                    <li>type one</li>
+                    <li>type one</li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type:square;" >
+                    <li>type one</li>
+                    <li>type one</li>
+                    <li>type one</li>
+                    <li>type one</li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type:circle;" >
+                    <li>type one</li>
+                    <li>type one</li>
+                    <li>type one</li>
+                    <li>type one</li>
+                </ul>
+            </td>
+            
+        </tr>
+    </table>
+</div>
+
+<div class="container6">
+    <h1>Media elements</h1>
+    <table border="2px">
+        <tr>
+        <th>Image</th>
+        <th>Progressbar</th>
+    </tr>
+    <tr>
+        <td> <img src="backgroundimages.jpg" alt=""></td>
+        <td> <progress max="100" value="40"  ></progress> </td>
+    </tr>
+    </table>
+
+</div>
+
+
+<br>
+
+<h1>Problem Number : 3</h1>
+<h2> The Styles</h2>
+<div class="container7">
+    <div class="box1" >
+        <img src="https://m.media-amazon.com/images/I/71HHSvWxhkL._UL1500_.jpg" alt="t shirt img" width="auto" height="326px">
+    </div>
+    <div class="box2">
+        <p> <b>Black T-Shirt</b> </p>
+        <h3>T-shirt :👕</h3>
+        <span style="font-weight: bolder; ">Rs.4000-/ <del> 25% </del> <span style="color: green;">  50% off</span></span>  <br>
+        <img style="margin-top: 2px;" width="66px" src="star.png" alt="stars">
+       <p style="width: 454px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatum consequuntur cupiditate labore voluptas natus quibusdam sunt culpa recusandae earum! Nisi quasi modi aliquid numquam.</p>
+       <b>Color :</b> <span> green</span> <br>
+       <b>Available Stock :</b> <span> 6 </span> <br>
+       <br>
+      <span>select size:</span> small<input type="radio"> large<input type="radio"><br> <br>
+      <button class="btn btn-primary">Buy Now</button> <span><button>Order</button></span>
+    </div>
+</div>
+
+
+
+</body>
+</html>
